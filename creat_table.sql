@@ -15,6 +15,6 @@ FROM 'E:/SQL/Oder_Management/Customers_Expanded.csv'
 DELIMITER ','
 CSV HEADER;
 
-SELECT customer_id FROM Customers_Expanded;
+SELECT * FROM Customers_Expanded;
 
 
